@@ -1,11 +1,7 @@
-language: node_js
-node_js:
-  - "14"
-install:
-  - npm install
 name: Cypress Tests
 on: [push]
 jobs:
+  npm-run: npm i
   cypress-run:
     runs-on: ubuntu-latest
     # Runs tests in parallel with matrix strategy https://docs.cypress.io/guides/guides/parallelization
