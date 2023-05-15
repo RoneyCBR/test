@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
     "cy:run":"cypress run",
-    "test:ci": "npm i && npx cypress run --record --key bc4089b0-c514-48d0-b52f-321ea8411d01"
+    "test:ci": "npm ci && npx cypress run --record --key bc4089b0-c514-48d0-b52f-321ea8411d01"
   },
   "eslintConfig": {
     "extends": [
